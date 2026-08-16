@@ -1,4 +1,7 @@
 
 def sumar(numeros):
-  pass
+#  pass   "Primer rojo"
+
+  return 0
+
 
