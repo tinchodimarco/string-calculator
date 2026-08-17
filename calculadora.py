@@ -1,6 +1,6 @@
-
 def sumar(numeros):
     if not numeros:
         return 0
-    return int(numeros)
-
+    
+    partes = numeros.split(",")
+    return sum(int(n) for n in partes)
