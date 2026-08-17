@@ -1,7 +1,6 @@
 
 def sumar(numeros):
-
-
-  return 0
-
+    if not numeros:
+        return 0
+    return int(numeros)
 
