@@ -10,3 +10,6 @@ def test_un_solo_numero():
 
 def test_dos_numeros_separados_por_coma():
     assert sumar("1,2") == 3
+
+def test_varios_numeros_separados_por_coma():
+    assert sumar("1,2,3,5,8,13") == 32
