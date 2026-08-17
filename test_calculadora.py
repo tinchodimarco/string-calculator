@@ -13,3 +13,6 @@ def test_dos_numeros_separados_por_coma():
 
 def test_varios_numeros_separados_por_coma():
     assert sumar("1,2,3,5,8,13") == 32
+
+def test_separados_por_nueva_linea():
+    assert sumar("1,2,4\n5,6") == 18
