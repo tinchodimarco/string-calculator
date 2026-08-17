@@ -16,3 +16,6 @@ def test_varios_numeros_separados_por_coma():
 
 def test_separados_por_nueva_linea():
     assert sumar("1,2,4\n5,6") == 18
+
+def test_delimitador_personalizado():
+    assert sumar("//;\n1;3;6;4") == 14
